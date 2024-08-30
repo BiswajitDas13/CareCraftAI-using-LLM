@@ -42,7 +42,7 @@ def generate_response(symptom):
             {"role": "system", "content": "You are a helpful assistant. Please summarize the patient details as accurately as possible."},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=500 #aster per need increase the token for testing i used 500 
+        max_tokens=500 #asper per need increase the token for testing i used 500 
         
     )
     
